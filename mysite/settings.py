@@ -144,7 +144,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 
-CRISPY_TEMPLATE_PACK = "bootstrap4"
+CRISPY_ALLOWED_UNSAFE_HTML = True
 
 
 # Media paths
